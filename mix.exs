@@ -33,8 +33,8 @@ defmodule Mailgun.Mixfile do
   #
   # Type `mix help deps` for more examples and options
   defp deps do
-    [{:exvcr, "~> 0.4.0", only: [:test]},
-     {:poison, "~> 1.4.0"}
+    [{:exvcr, "~> 0.5.0", only: [:test]},
+     {:poison, "~> 1.5.0"}
     ]
   end
 end
